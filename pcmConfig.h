@@ -32,14 +32,14 @@ Blog: https://tmrh20.blogspot.com/
 #define SD_FULLSPEED
 
   /* HANDLE_TAGS - This options allows proper playback of WAV files with embedded metadata*/
-#define HANDLE_TAGS
+//#define HANDLE_TAGS
 
   /*Ethernet shield support etc. The library outputs on both timer pins, 9 and 10 on Uno by default. Uncommenting this
     will disable output on the 2nd timer pin and should allow it to function with shields etc that use Uno pin 10 (TIMER1 COMPB).*/
 //#define DISABLE_SPEAKER2
 
   /* Use 8-bit TIMER2 - If using an UNO, Nano, etc and need TIMER1 for other things*/
-//#define USE_TIMER2
+#define USE_TIMER1
 
 //#define debug
 /****************** ADVANCED USER DEFINES ********************************
@@ -49,7 +49,7 @@ Blog: https://tmrh20.blogspot.com/
 //#define SDFAT
 
    /* MULTI Track mode currently allows playback of 2 tracks at once          */
-#define ENABLE_MULTI  //Using separate pins on a single 16-bit timer
+//#define ENABLE_MULTI  //Using separate pins on a single 16-bit timer
 
    /* Enables 16-bit samples, which can be used for stereo playback, or to produce a
 	   pseudo 16-bit output.                                                   */
@@ -74,7 +74,7 @@ Blog: https://tmrh20.blogspot.com/
    																									*/
 #define ENABLE_RECORDING
 	// Amount of space to pre-allocate for recording
-	#define BLOCK_COUNT 10000UL  // 10000 = 500MB   2000 = 100MB
+	#define BLOCK_COUNT 2000UL  // 10000 = 500MB   2000 = 100MB
 
 //*********************** Radio (NRF24L01+) Streaming *********************
 
