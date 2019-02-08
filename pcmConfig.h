@@ -74,7 +74,7 @@ Blog: https://tmrh20.blogspot.com/
    																									*/
 #define ENABLE_RECORDING
 	// Amount of space to pre-allocate for recording
-	#define BLOCK_COUNT 2000UL  // 10000 = 500MB   2000 = 100MB
+	//#define BLOCK_COUNT 2000UL  // 10000 = 500MB   2000 = 100MB
 
 //*********************** Radio (NRF24L01+) Streaming *********************
 
